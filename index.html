@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Info Canale YouTube</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Informazioni Canale YouTube</h1>
+  <form id="channelForm">
+    <label for="channelName">Nome del Canale:</label>
+    <input type="text" id="channelName" name="channelName" required>
+    <button type="submit">Ottieni Informazioni</button>
+  </form>
+  <div id="channelInfo">
+    <!-- Le informazioni del canale saranno visualizzate qui -->
+  </div>
+  <canvas id="videoChart" width="400" height="200"></canvas>
+  <div id="userLocation">
+    <p id="userCity"></p>
+  </div>
+  
+  
+</body>
+</html>
